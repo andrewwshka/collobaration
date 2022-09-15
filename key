@@ -1,4 +1,3 @@
-// Point.h
 #ifndef _point_h
 #define _point_h
 class Point {
