@@ -1,0 +1,28 @@
+// Point.h
+#ifndef _point_h
+#define _point_h
+class Point {
+public:
+    Point(int x, int y);
+    int getX() const;
+    int getY() const;
+    void translate(int dx, int dy);
+
+private:
+    int m_x;
+    int m_y;
+};
+#endif
+// Point.cpp
+#include "Point.h"
+
+Point::Point(int x, int y) {
+    m_x = x;
+    m_y = y;
+}
+
+void Point::translate(int dx, int dy) {
+    m_x += dx;
+    m_y += dy;
+}
+...
