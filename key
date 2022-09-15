@@ -25,4 +25,4 @@ void Point::translate(int dx, int dy) {
     m_x += dx;
     m_y += dy;
 }
-...
+
